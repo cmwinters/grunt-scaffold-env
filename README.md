@@ -1,2 +1,3 @@
 # grunt-scaffold-env
-Grunt environment with templating
+
+Starter Grunt environment with templating.

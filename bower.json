@@ -1,0 +1,21 @@
+{
+  "name": "grunt-scaffold-env",
+  "version": "0.0.1",
+  "homepage": "https://github.com/cmwinters/grunt-scaffold-env",
+  "authors": [
+    "cmwinters <winters.caleb@gmail.com>"
+  ],
+  "moduleType": [
+    "es6",
+    "globals",
+    "node"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
