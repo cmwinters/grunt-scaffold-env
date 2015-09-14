@@ -7,17 +7,7 @@ module.exports = function(grunt) {
       options: {
         flatten: false,
         assets: 'dist/assets/',
-        data: ['src/data/*.json'],
-        marked: {
-          gfm: true,
-          sanitize: false,
-          highlight: function(code, lang) {
-            if (lang === undefined) lang = 'bash';
-            if (lang === 'html') lang = 'xml';
-            if (lang === 'js') lang = 'javascript';
-            return '<div class="code-container">' + hljs.highlight(lang, code).value + '</div>';
-          }
-        }
+        data: ['src/data/*.json']
       },
       dist: {
         options: {
